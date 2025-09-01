@@ -9,6 +9,8 @@ var reduce = function(nums, fn, init) {
     if (nums.length === 0) return init
     // reduce values
     let reducedValue = init
-    nums.forEach((n) => reducedValue = fn(reducedValue, n))
+    for (let num of nums) {
+        reducedValue = fn(reducedValue, num)
+    }    
     return reducedValue
 };
