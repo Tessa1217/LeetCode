@@ -5,18 +5,16 @@
 var compactObject = function(obj) {
     // object 프로토타입 가지고 있지 않은 경우
     if (!obj || typeof obj !== 'object') return obj    
-    Object.entries(obj).forEach(([k, v]) => {
-        const value = compactObject(v)        
-        if (!value) {            
-            delete obj[k]
+    // Array인 경우
+    if (Array.isArray(obj)) return obj.filter((e) => !!e).map(compactObject)
+    // Object    
+    for (let p in obj) {
+        const value = compactObject(obj[p])
+        if (!value) {
+            delete obj[p]
         } else {
-            obj[k] = value
+            obj[p] = value
         }
-    })
-    // Array는 delete로 삭제 시 length 조정하지 않음
-    // undefined filtering 필요
-    if (Array.isArray(obj)) {
-        obj = obj.filter((e) => !!e)
     }
     return obj
 };
