@@ -9,7 +9,7 @@ var compactObject = function(obj) {
     if (Array.isArray(obj)) return obj.filter((e) => !!e).map(compactObject)
     // Object    
     for (let p in obj) {
-        const value = compactObject(obj[p])
+        const value = typeof obj[p] !== 'object' ? obj[p] : compactObject(obj[p])
         if (!value) {
             delete obj[p]
         } else {
