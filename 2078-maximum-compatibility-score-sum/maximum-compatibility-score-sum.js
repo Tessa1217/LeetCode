@@ -5,36 +5,32 @@
  */
 var maxCompatibilitySum = function(students, mentors) {
     const m = students.length
-    let max_sum = 0
-    const perm = permutation(m)
-    perm.forEach((p) => {
-        let cur_sum = 0
-        for (let i = 0; i < m; i++) {
-            cur_sum += calculateCompatibility(students[i], mentors[p[i]])
-        }
-        max_sum = Math.max(max_sum, cur_sum)
-    })
-    return max_sum
-};
-
-// mentor 인덱스 permutation
-function permutation(m) {
-    const result = []
-    // 1, 2, 3 | 1, 3, 2 | 2, 1, 3 | 2, 3, 1 | 3, 1, 2 | 3, 2, 1
-    function permute(cur) {
-        if (cur.length === m) {
-            result.push([...cur])
-            return
-        }
-        for (let i = 0; i < m; i++) {
-            if (cur.includes(i)) continue            
-            cur.push(i)
-            permute(cur)
-            cur.pop()            
+    const score = Array.from({ length: m }, () => Array(m).fill(0))
+    for (let i = 0; i < m; i++) {
+        for (let j = 0; j < m; j++) {
+            score[i][j] = calculateCompatibility(students[i], mentors[j])
         }
     }
-    permute([])
-    return result
+    const dp = new Array(1 << m).fill(0)
+    for (let mask = 1; mask < (1 << m); mask++) {
+        const i = bitCount(mask) - 1
+        for (let j = 0; j < m; j++) {
+            if (mask & (1 << j)) {
+                dp[mask] = Math.max(dp[mask], dp[mask ^ (1 << j)] + score[i][j])
+            }
+        }
+    }
+
+    return dp[(1 << m) - 1]
+};
+
+function bitCount(x) {
+    let cnt = 0
+    while (x) {
+        cnt += x & 1
+        x >>= 1
+    }
+    return cnt
 }
 
 function calculateCompatibility(student, mentor) {
