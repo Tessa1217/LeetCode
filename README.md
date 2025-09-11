@@ -15,4 +15,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0038-count-and-say](https://github.com/Tessa1217/LeetCode/tree/master/0038-count-and-say) |
+## Math
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Tessa1217/LeetCode/tree/master/0070-climbing-stairs) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Tessa1217/LeetCode/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Tessa1217/LeetCode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
