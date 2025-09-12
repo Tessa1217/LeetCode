@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/Tessa1217/LeetCode/tree/master/0035-search-insert-position) |
 | [3418-count-pairs-that-form-a-complete-day-ii](https://github.com/Tessa1217/LeetCode/tree/master/3418-count-pairs-that-form-a-complete-day-ii) |
 | [3421-count-pairs-that-form-a-complete-day-i](https://github.com/Tessa1217/LeetCode/tree/master/3421-count-pairs-that-form-a-complete-day-i) |
+| [3430-count-days-without-meetings](https://github.com/Tessa1217/LeetCode/tree/master/3430-count-days-without-meetings) |
 ## Binary Search
 |  |
 | ------- |
@@ -39,4 +40,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3418-count-pairs-that-form-a-complete-day-ii](https://github.com/Tessa1217/LeetCode/tree/master/3418-count-pairs-that-form-a-complete-day-ii) |
 | [3421-count-pairs-that-form-a-complete-day-i](https://github.com/Tessa1217/LeetCode/tree/master/3421-count-pairs-that-form-a-complete-day-i) |
+## Sorting
+|  |
+| ------- |
+| [3430-count-days-without-meetings](https://github.com/Tessa1217/LeetCode/tree/master/3430-count-days-without-meetings) |
 <!---LeetCode Topics End-->
