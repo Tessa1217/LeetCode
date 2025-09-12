@@ -4,11 +4,11 @@
  */
 var countCompleteDayPairs = function(hours) {
     let answer = 0
-    const countMap = new Map()
+    let count = Array.from({length : 24}).fill(0)
     for (let hour of hours) {
         const idx = hour % 24
-        answer += countMap.get((24 - idx) % 24) || 0
-        countMap.set(idx, (countMap.get(idx) || 0) + 1)
+        answer += count[(24 - idx) % 24]
+        count[hour % 24]++
     }
     return answer
 };
