@@ -22,10 +22,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Tessa1217/LeetCode/tree/master/0070-climbing-stairs) |
+| [0096-unique-binary-search-trees](https://github.com/Tessa1217/LeetCode/tree/master/0096-unique-binary-search-trees) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Tessa1217/LeetCode/tree/master/0070-climbing-stairs) |
+| [0096-unique-binary-search-trees](https://github.com/Tessa1217/LeetCode/tree/master/0096-unique-binary-search-trees) |
 ## Memoization
 |  |
 | ------- |
@@ -44,4 +46,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3430-count-days-without-meetings](https://github.com/Tessa1217/LeetCode/tree/master/3430-count-days-without-meetings) |
+## Tree
+|  |
+| ------- |
+| [0096-unique-binary-search-trees](https://github.com/Tessa1217/LeetCode/tree/master/0096-unique-binary-search-trees) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0096-unique-binary-search-trees](https://github.com/Tessa1217/LeetCode/tree/master/0096-unique-binary-search-trees) |
+## Binary Tree
+|  |
+| ------- |
+| [0096-unique-binary-search-trees](https://github.com/Tessa1217/LeetCode/tree/master/0096-unique-binary-search-trees) |
 <!---LeetCode Topics End-->
