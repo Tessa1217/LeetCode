@@ -23,11 +23,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/Tessa1217/LeetCode/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/Tessa1217/LeetCode/tree/master/0096-unique-binary-search-trees) |
+| [0264-ugly-number-ii](https://github.com/Tessa1217/LeetCode/tree/master/0264-ugly-number-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Tessa1217/LeetCode/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/Tessa1217/LeetCode/tree/master/0096-unique-binary-search-trees) |
+| [0264-ugly-number-ii](https://github.com/Tessa1217/LeetCode/tree/master/0264-ugly-number-ii) |
 ## Memoization
 |  |
 | ------- |
@@ -35,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/Tessa1217/LeetCode/tree/master/0264-ugly-number-ii) |
 | [3418-count-pairs-that-form-a-complete-day-ii](https://github.com/Tessa1217/LeetCode/tree/master/3418-count-pairs-that-form-a-complete-day-ii) |
 | [3421-count-pairs-that-form-a-complete-day-i](https://github.com/Tessa1217/LeetCode/tree/master/3421-count-pairs-that-form-a-complete-day-i) |
 ## Counting
@@ -58,4 +61,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Tessa1217/LeetCode/tree/master/0096-unique-binary-search-trees) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0264-ugly-number-ii](https://github.com/Tessa1217/LeetCode/tree/master/0264-ugly-number-ii) |
 <!---LeetCode Topics End-->
